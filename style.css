@@ -1,0 +1,277 @@
+ #logo{
+    width: 268px;
+    height: 68px;
+    cursor: pointer;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    top:0;
+}
+.menu{
+    display: flex;
+        list-style: none;
+        font-family: Roboto, Arial, sans-serif;
+        font-size: 15px;
+        line-height: 30px;
+        font-weight: 400px;
+        color: #ababab;
+        cursor: pointer;
+        
+}
+.menu-item{ 
+    margin-right: 20px;
+}
+.menu-item-drop{
+    display: none;
+    background-color: white;
+    width: 200px;
+    height:200px ;
+   margin-left: -100px;
+    padding-right:20px ;
+    line-height: 40px;
+    box-shadow: 0px 0px 10px #ddd;
+    list-style: none;
+}
+.menu-item:hover .menu-item-drop{
+    display: flex;
+    flex-direction: column;
+    
+    position: absolute;
+    color: #ababab;
+    }
+
+    
+
+    .menu-item:hover{
+        color: rgb(0,199, 155)
+    }
+    
+    .menu-item-drop:hover{
+        color: rgb(0,199, 155)
+    }
+    
+   
+    .logo1{
+        font-family: "Work Sans", Arial, sans-serif;
+        font-size: 26px;
+        Line-height: 44.2px;
+        font-weight: 300px;
+        color: rgb(0, 179, 155);
+        text-align:center;
+        padding-top: 100px;
+
+       
+    }
+   .second-section{
+       display: flex;
+       justify-content: space-around;
+       max-width: 900px;
+       margin: 0 auto;
+       
+       
+    }
+    .second-section p {
+        
+        font: 400px 16px roboto,arial,sans-serif;
+        line-height: 28px;
+        color: rgb(116, 116, 116);
+        padding:10px ;
+        text-align: justify;
+    }
+    
+    .third-section{
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 180px;
+      
+      }
+      .patients{
+        background-color:#00CCB1 ;
+        
+      }
+      
+      .doctors{
+        background-color:#3D83DF;
+      }
+      .clinics{
+        background-color:#1B2734 ;
+      }
+      .third-section div{
+        padding: 30px;
+        margin:20px 10px;
+        border-radius: 10px;
+        width: 312px;
+        height: 345px;
+        color:white;
+        font-family: "work sans",Arial, sans-serif;
+        font-size: 15px;
+        line-height: 28px;
+      }
+      
+.global{
+  font: 300px 26px "Work Sans",Arial,sans-serif;
+  line-height: 33,8;
+  color: rgb(0, 179, 155);
+  padding-left:200px;
+  padding-bottom: 30px;
+}
+
+      
+    .fourth-section{
+        display: flex;
+        justify-content: center;
+        
+        margin: 0px 180px;
+        background-color: rgb(217, 247, 247);
+        margin-left: -10px;
+        margin-right: -10px;
+                height: 600px;
+        
+        
+    }
+   
+    .Leader{
+        background-color:white ;
+        box-shadow:0px 0px 2px #ddd ;
+        border-radius: 5px;
+        height: 220px;
+        
+      }
+      
+      .mlnpatients{
+        background-color:white;
+        box-shadow:0px 0px 2px #ddd ;
+        border-radius: 5px;
+        height: 220px;
+      }
+
+      
+
+      .million{
+        background-color:white ;
+        box-shadow:0px 0px 2px #ddd ;
+        border-radius: 5px;
+        height: 220px;
+      }
+      .activedoctors{
+          background-color: white;
+          box-shadow:0px 0px 2px #ddd ;
+          border-radius: 5px;
+          height: 220px;
+      }
+
+.world{
+  padding-right: 200px;
+}
+.world h1{
+font: 300px 34px "Work Sans", Arial, sans-serif;
+line-height: 44,2px;
+color: rgb(0, 179, 155);
+}
+.world p{
+ font: 400px 14px Roboto, Arial, sans-serif;
+ line-height: 24px;
+ color: rgb(116, 116, 116);
+}
+      
+      .fourth-section div {
+        
+        padding: 20px;
+        margin: 10px;
+         width: 200px;
+        height: 220px;
+        font-family: Roboto, Arial, sans-serif;
+      font-size: 13px;
+      font-weight: 400px;
+      Line-height: 16.9px;
+      color: rgb(116, 116, 116);
+        text-align: center;
+              }
+      
+      
+      .fourth-section h1{
+        font-family: "Work Sans", Arial, sans-serif;
+        font-size: 20px;
+         font-weight: 200px;
+         Line-height: 31.2px;
+         color: rgb(0, 179, 155);
+         
+      }
+      .improve{
+        
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+      }
+      .improve h1{
+        
+font: 300px 30px "Work Sans",arial,sans-serif;
+line-height: 28px;
+color: rgb(0, 179, 155);
+      }
+      .improve p{
+        font:400px 14px Roboto,arial,sans-serif;
+        line-height: 24px;
+        color:rgb(116, 116, 116)
+      }
+
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1015px;
+        margin: 0 auto;
+      }
+      .items {
+        margin: 10px;
+      }
+      
+      .btn {
+        background: transparent;
+        border-radius: 4px;
+        float: right;
+        font-weight: bold;
+        font-size: 10px;
+        width: 110px;
+        height: 32px;
+        background-color: #3d83df;
+        color: white;
+        border-color: white;
+        border-style: solid;
+      }
+      .btn:hover {
+        background-color: #3d93df;
+      }
+      
+      .under-img {
+        font-family: Robto, Arial, sans-serif;
+        color: #747474;
+        font-size: 18px;
+        line-height: 30px;
+        padding: 20px;
+      }
+      
+      .items:hover {
+        box-shadow: 0 5px 10px 0 #d3cfc9;
+      }
+   
+    .sounds{
+      font: 300px 50px "Work Sans", Arial, sans-serif;
+      line-height: 39px;
+      color: rgb(51, 51, 51);
+      text-align: center;
+    }
+   
+        
+  
+ 
+ 
+
+  
+
